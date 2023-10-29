@@ -31,7 +31,7 @@ function getRandomAnimationTime(initial, variance) {
 
 function getLifeData() {
     let now = new Date()
-    let birthday = new Date(1130713200 * 1000);
+    let birthday = new Date(1130763300 * 1000); //1130713200
     let seconds = (now - birthday) / 1000;
     let hours = seconds / 3600;
     let days = hours / 24;
