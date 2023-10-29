@@ -3,6 +3,7 @@ html {
     height: 100vh;
     background: rgb(35,108,26);
     background: linear-gradient(270deg, rgba(35,108,26,1) 0%, rgba(42,139,44,1) 35%, rgba(68,156,50,1) 100%); 
+    overflow-x: hidden;
 }
 p {
     margin: 0;
@@ -27,7 +28,7 @@ body {
 .header>p {
     padding-left: 20px;
     color: white;
-    font-size: calc(22px + 3vw);
+    font-size: calc(18px + 2.6vw);
     font-family: Lobster Two;
     font-weight: 600;
 }
@@ -82,7 +83,7 @@ body {
     display: grid;
     row-gap: calc(8px + 2vw);
     column-gap: 20px;
-    padding: calc(10px + 3vw) 30px;
+    padding: calc(10px + 3vw) calc(8px + 1.5vw);
 }
 .content p {
     font-size: calc(13px + 0.8vw);
@@ -98,10 +99,10 @@ body {
 }
 .birthday {
     font-size: calc(25px + 2vw);
-    padding: 15px;
     font-family: Lobster Two;
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 0;
 }
 
