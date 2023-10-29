@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Birthday!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="clock.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="balloons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+  </head>
+  <body onload="
+    setInterval(uhr, 1)
+    setInterval(getLifeData, 0.1)
+    getRandomAnimationTime(4, 0.6)
+  ">
+    <header class="header" onclick="getLifeData()">
+      <p>Heute ist ein <span>besonderer</span> Tag!</p>
+      <div class="uhr" id="uhr"></div>
+    </header>
+      <div class="content">
+        <div class="verse-box">
+          <p id="life-stats1">1</p>
+        </div>
+        <div class="verse-box">
+          <p id="life-stats2">2</p>
+        </div>
+        <div class="verse-box">
+          <p id="life-stats3">3</p>
+        </div>
+        <div class="verse-box">
+          <p id="life-stats4">4</p>
+        </div>
+      </div>
+      <p id="birthday" class="birthday">
+        Alles gute zu deinem 18. Geburtstag!
+      </p>
+      <img src="balloonH.png" class="balloon" id="balloonh">
+      <img src="balloonB.png" class="balloon" id="balloonb">
+      <img src="balloonD.png" class="balloon" id="balloond">
+      <img src="balloonL.png" class="balloon" id="balloonl">
+      <img src="balloonE.png" class="balloon" id="balloone">
+      <img src="balloonN.png" class="balloon" id="balloonn">
+      <img src="balloonA.png" class="balloon" id="balloona">
+  </body>
+</html>

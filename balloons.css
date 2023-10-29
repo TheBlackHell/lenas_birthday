@@ -1,0 +1,39 @@
+.balloon {
+    scale: 0.6;
+    position:absolute;
+    left: 0;
+    animation-name: rise;
+    animation-duration: 8s;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    top: -1000px;
+}
+@keyframes rise {
+    from {
+        top: 500px;
+    }
+    to {
+        top: -1000px;
+    }
+}
+
+#balloonh{
+    left: 0vw;
+}
+#balloonb{
+    left: 10vw;
+}
+#balloond{
+    left: 20vw;
+}
+#balloonl{
+    left: 50vw;
+}
+#balloone{
+    left: 60vw;
+}
+#balloonn{
+    left: 70vw;
+}
+#balloona{
+    left: 80vw;
+}
