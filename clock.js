@@ -72,8 +72,8 @@ function getLifeData() {
     ";
 
     document.getElementById('life-stats4').innerHTML = "\
-        Im Schnitt hast du noch "+ percent.toFixed(3) +"% zum durchleben,<br>\
-        Deshalb Folge allen deinen Bestreben,<br>\
+        Im Schnitt hast du noch "+ percent.toFixed(3) +"% zum Durchleben,<br>\
+        Deshalb folge allen deinen Bestreben,<br>\
         'Carpe diem' - pflücke den Tag,<br>\
         Sei wie du bist, weil ich dich so mag 💚💜\
     ";
